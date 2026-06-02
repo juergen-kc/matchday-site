@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matchday — Support</title>
+<style>
+  :root { --paper:#F3EAD8; --surface:#EADFC6; --ink:#23201A; --dim:#6B6253; --faint:#C3B393; --accent:#B4530A; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#17140F; --surface:#211C15; --ink:#E9DCC2; --dim:#A99C82; --faint:#4A4234; --accent:#E08A2B; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font-family: ui-monospace,"SF Mono",Menlo,Consolas,monospace; line-height:1.6; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1rem; margin:24px 0 4px; }
+  .sub { color:var(--dim); margin:0 0 24px; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--faint); margin:24px 0; }
+  .q { font-weight:700; margin-top:18px; }
+  .small { color:var(--dim); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="small"><a href="./index.html">← Matchday</a></p>
+  <h1>Support</h1>
+  <p class="sub">Help &amp; contact</p>
+
+  <p>Email <a href="mailto:juergen@klaassen.consulting">juergen@klaassen.consulting</a> and we'll
+     get back to you.</p>
+
+  <hr>
+  <h2>FAQ</h2>
+
+  <p class="q">The times look off — are they wrong?</p>
+  <p>Every kickoff renders in your device's current time zone. If you travel, reopen the app and
+     times re-render automatically. The detail screen also shows the venue's local time.</p>
+
+  <p class="q">My reminder didn't fire.</p>
+  <p>Reminders are local notifications. Make sure notifications are enabled for Matchday in
+     Settings › Notifications, and that you set the reminder before its lead time passed.</p>
+
+  <p class="q">I added a match to my calendar but want to remove it.</p>
+  <p>Matchday uses write-only calendar access and can't read your calendar back, so remove the
+     event in the Calendar app. You can re-add it from the match's detail screen.</p>
+
+  <p class="q">Where are live scores and the bracket?</p>
+  <p>This release is a forward-looking watch-planner. Scores, standings, and the knockout bracket
+     are planned for a later update.</p>
+
+  <p class="q">Is this the official app?</p>
+  <p>No. Matchday is independent and unofficial, not affiliated with or endorsed by any governing
+     body, tournament organizer, broadcaster, or team. Match data is factual and times are subject
+     to change.</p>
+
+  <hr>
+  <p class="small">© 2026 Klaassen Consulting.</p>
+</main>
+</body>
+</html>
