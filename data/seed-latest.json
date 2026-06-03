@@ -1,0 +1,1968 @@
+{
+  "meta": {
+    "version": 1,
+    "tournament": "Men's international football championship, North America 2026",
+    "note": "Unofficial reference dataset. Not affiliated with or endorsed by FIFA. All 72 group-stage fixtures are CONFIRMED with date, venue, and kickoff (source: published broadcast schedule; kickoff_et is US Eastern, kickoff_utc is the canonical instant — render in the user's local zone from kickoff_utc). Knockout slots are positional placeholders with date windows; their teams resolve after the group stage, and exact R32+ venues/times can be backfilled from the same source.",
+    "dates": {
+      "start": "2026-06-11",
+      "end": "2026-07-19"
+    },
+    "counts": {
+      "teams": 48,
+      "groups": 12,
+      "venues": 16,
+      "matches": 104
+    },
+    "host_countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "timezone_note": "kickoff_utc is authoritative. kickoff_et retained for traceability against the source."
+  },
+  "venues": [
+    {
+      "key": "dallas",
+      "city": "Dallas (Arlington, TX)",
+      "stadium": "AT&T Stadium",
+      "tournament_name": "Dallas Stadium",
+      "capacity": 94000,
+      "timezone": "America/Chicago",
+      "country": "US"
+    },
+    {
+      "key": "mexico",
+      "city": "Mexico City",
+      "stadium": "Estadio Azteca (Banorte)",
+      "tournament_name": "Mexico City Stadium",
+      "capacity": 83000,
+      "timezone": "America/Mexico_City",
+      "country": "MX"
+    },
+    {
+      "key": "nynj",
+      "city": "New York/New Jersey (E. Rutherford)",
+      "stadium": "MetLife Stadium",
+      "tournament_name": "New York New Jersey Stadium",
+      "capacity": 82500,
+      "timezone": "America/New_York",
+      "country": "US"
+    },
+    {
+      "key": "atlanta",
+      "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "tournament_name": "Atlanta Stadium",
+      "capacity": 75000,
+      "timezone": "America/New_York",
+      "country": "US"
+    },
+    {
+      "key": "kc",
+      "city": "Kansas City",
+      "stadium": "GEHA Field at Arrowhead Stadium",
+      "tournament_name": "Kansas City Stadium",
+      "capacity": 73000,
+      "timezone": "America/Chicago",
+      "country": "US"
+    },
+    {
+      "key": "houston",
+      "city": "Houston",
+      "stadium": "NRG Stadium",
+      "tournament_name": "Houston Stadium",
+      "capacity": 72000,
+      "timezone": "America/Chicago",
+      "country": "US"
+    },
+    {
+      "key": "sfbay",
+      "city": "San Francisco Bay Area (Santa Clara)",
+      "stadium": "Levi's Stadium",
+      "tournament_name": "San Francisco Bay Area Stadium",
+      "capacity": 71000,
+      "timezone": "America/Los_Angeles",
+      "country": "US"
+    },
+    {
+      "key": "la",
+      "city": "Los Angeles (Inglewood)",
+      "stadium": "SoFi Stadium",
+      "tournament_name": "Los Angeles Stadium",
+      "capacity": 70000,
+      "timezone": "America/Los_Angeles",
+      "country": "US"
+    },
+    {
+      "key": "philly",
+      "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "tournament_name": "Philadelphia Stadium",
+      "capacity": 69000,
+      "timezone": "America/New_York",
+      "country": "US"
+    },
+    {
+      "key": "seattle",
+      "city": "Seattle",
+      "stadium": "Lumen Field",
+      "tournament_name": "Seattle Stadium",
+      "capacity": 69000,
+      "timezone": "America/Los_Angeles",
+      "country": "US"
+    },
+    {
+      "key": "boston",
+      "city": "Boston (Foxborough, MA)",
+      "stadium": "Gillette Stadium",
+      "tournament_name": "Boston Stadium",
+      "capacity": 65000,
+      "timezone": "America/New_York",
+      "country": "US"
+    },
+    {
+      "key": "miami",
+      "city": "Miami (Miami Gardens, FL)",
+      "stadium": "Hard Rock Stadium",
+      "tournament_name": "Miami Stadium",
+      "capacity": 65000,
+      "timezone": "America/New_York",
+      "country": "US"
+    },
+    {
+      "key": "vancouver",
+      "city": "Vancouver",
+      "stadium": "BC Place",
+      "tournament_name": "BC Place Vancouver",
+      "capacity": 54000,
+      "timezone": "America/Vancouver",
+      "country": "CA"
+    },
+    {
+      "key": "monterrey",
+      "city": "Monterrey (Guadalupe)",
+      "stadium": "Estadio BBVA",
+      "tournament_name": "Estadio Monterrey",
+      "capacity": 53500,
+      "timezone": "America/Monterrey",
+      "country": "MX"
+    },
+    {
+      "key": "guadalajara",
+      "city": "Guadalajara (Zapopan)",
+      "stadium": "Estadio Akron",
+      "tournament_name": "Estadio Guadalajara",
+      "capacity": 48000,
+      "timezone": "America/Mexico_City",
+      "country": "MX"
+    },
+    {
+      "key": "toronto",
+      "city": "Toronto",
+      "stadium": "BMO Field",
+      "tournament_name": "Toronto Stadium",
+      "capacity": 45000,
+      "timezone": "America/Toronto",
+      "country": "CA"
+    }
+  ],
+  "groups": [
+    {
+      "group": "A",
+      "teams": [
+        {
+          "pos": "A1",
+          "team": "Mexico"
+        },
+        {
+          "pos": "A2",
+          "team": "South Africa"
+        },
+        {
+          "pos": "A3",
+          "team": "South Korea"
+        },
+        {
+          "pos": "A4",
+          "team": "Czechia"
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teams": [
+        {
+          "pos": "B1",
+          "team": "Canada"
+        },
+        {
+          "pos": "B2",
+          "team": "Bosnia and Herzegovina"
+        },
+        {
+          "pos": "B3",
+          "team": "Qatar"
+        },
+        {
+          "pos": "B4",
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teams": [
+        {
+          "pos": "C1",
+          "team": "Brazil"
+        },
+        {
+          "pos": "C2",
+          "team": "Morocco"
+        },
+        {
+          "pos": "C3",
+          "team": "Haiti"
+        },
+        {
+          "pos": "C4",
+          "team": "Scotland"
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teams": [
+        {
+          "pos": "D1",
+          "team": "United States"
+        },
+        {
+          "pos": "D2",
+          "team": "Paraguay"
+        },
+        {
+          "pos": "D3",
+          "team": "Australia"
+        },
+        {
+          "pos": "D4",
+          "team": "Türkiye"
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teams": [
+        {
+          "pos": "E1",
+          "team": "Germany"
+        },
+        {
+          "pos": "E2",
+          "team": "Curaçao"
+        },
+        {
+          "pos": "E3",
+          "team": "Ivory Coast"
+        },
+        {
+          "pos": "E4",
+          "team": "Ecuador"
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teams": [
+        {
+          "pos": "F1",
+          "team": "Netherlands"
+        },
+        {
+          "pos": "F2",
+          "team": "Japan"
+        },
+        {
+          "pos": "F3",
+          "team": "Sweden"
+        },
+        {
+          "pos": "F4",
+          "team": "Tunisia"
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teams": [
+        {
+          "pos": "G1",
+          "team": "Belgium"
+        },
+        {
+          "pos": "G2",
+          "team": "Egypt"
+        },
+        {
+          "pos": "G3",
+          "team": "Iran"
+        },
+        {
+          "pos": "G4",
+          "team": "New Zealand"
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teams": [
+        {
+          "pos": "H1",
+          "team": "Spain"
+        },
+        {
+          "pos": "H2",
+          "team": "Cape Verde"
+        },
+        {
+          "pos": "H3",
+          "team": "Saudi Arabia"
+        },
+        {
+          "pos": "H4",
+          "team": "Uruguay"
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teams": [
+        {
+          "pos": "I1",
+          "team": "France"
+        },
+        {
+          "pos": "I2",
+          "team": "Senegal"
+        },
+        {
+          "pos": "I3",
+          "team": "Iraq"
+        },
+        {
+          "pos": "I4",
+          "team": "Norway"
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teams": [
+        {
+          "pos": "J1",
+          "team": "Argentina"
+        },
+        {
+          "pos": "J2",
+          "team": "Algeria"
+        },
+        {
+          "pos": "J3",
+          "team": "Austria"
+        },
+        {
+          "pos": "J4",
+          "team": "Jordan"
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teams": [
+        {
+          "pos": "K1",
+          "team": "Portugal"
+        },
+        {
+          "pos": "K2",
+          "team": "DR Congo"
+        },
+        {
+          "pos": "K3",
+          "team": "Uzbekistan"
+        },
+        {
+          "pos": "K4",
+          "team": "Colombia"
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teams": [
+        {
+          "pos": "L1",
+          "team": "England"
+        },
+        {
+          "pos": "L2",
+          "team": "Croatia"
+        },
+        {
+          "pos": "L3",
+          "team": "Ghana"
+        },
+        {
+          "pos": "L4",
+          "team": "Panama"
+        }
+      ]
+    }
+  ],
+  "group_fixtures": [
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "Mexico",
+      "away": "South Africa",
+      "home_pos": "A1",
+      "away_pos": "A2",
+      "date": "2026-06-11",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-11T19:00:00Z",
+      "venue": "mexico",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "South Korea",
+      "away": "Czechia",
+      "home_pos": "A3",
+      "away_pos": "A4",
+      "date": "2026-06-11",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-12T02:00:00Z",
+      "venue": "guadalajara",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "Czechia",
+      "away": "South Africa",
+      "home_pos": "A4",
+      "away_pos": "A2",
+      "date": "2026-06-18",
+      "kickoff_et": "12:00",
+      "kickoff_utc": "2026-06-18T16:00:00Z",
+      "venue": "atlanta",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "Mexico",
+      "away": "South Korea",
+      "home_pos": "A1",
+      "away_pos": "A3",
+      "date": "2026-06-18",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-19T01:00:00Z",
+      "venue": "guadalajara",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "Czechia",
+      "away": "Mexico",
+      "home_pos": "A4",
+      "away_pos": "A1",
+      "date": "2026-06-24",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "venue": "mexico",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "South Africa",
+      "away": "South Korea",
+      "home_pos": "A2",
+      "away_pos": "A3",
+      "date": "2026-06-24",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "venue": "monterrey",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "home_pos": "B1",
+      "away_pos": "B2",
+      "date": "2026-06-12",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-12T19:00:00Z",
+      "venue": "toronto",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "Qatar",
+      "away": "Switzerland",
+      "home_pos": "B3",
+      "away_pos": "B4",
+      "date": "2026-06-13",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-13T19:00:00Z",
+      "venue": "sfbay",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "home_pos": "B4",
+      "away_pos": "B2",
+      "date": "2026-06-18",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-18T19:00:00Z",
+      "venue": "la",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "Canada",
+      "away": "Qatar",
+      "home_pos": "B1",
+      "away_pos": "B3",
+      "date": "2026-06-18",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-18T22:00:00Z",
+      "venue": "vancouver",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "Switzerland",
+      "away": "Canada",
+      "home_pos": "B4",
+      "away_pos": "B1",
+      "date": "2026-06-24",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "venue": "vancouver",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "home_pos": "B2",
+      "away_pos": "B3",
+      "date": "2026-06-24",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "venue": "seattle",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "Brazil",
+      "away": "Morocco",
+      "home_pos": "C1",
+      "away_pos": "C2",
+      "date": "2026-06-13",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-13T22:00:00Z",
+      "venue": "nynj",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "Haiti",
+      "away": "Scotland",
+      "home_pos": "C3",
+      "away_pos": "C4",
+      "date": "2026-06-13",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "venue": "boston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "Scotland",
+      "away": "Morocco",
+      "home_pos": "C4",
+      "away_pos": "C2",
+      "date": "2026-06-19",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-19T22:00:00Z",
+      "venue": "boston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "Brazil",
+      "away": "Haiti",
+      "home_pos": "C1",
+      "away_pos": "C3",
+      "date": "2026-06-19",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-20T01:00:00Z",
+      "venue": "philly",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "Scotland",
+      "away": "Brazil",
+      "home_pos": "C4",
+      "away_pos": "C1",
+      "date": "2026-06-24",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "venue": "miami",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_pos": "C2",
+      "away_pos": "C3",
+      "date": "2026-06-24",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "venue": "atlanta",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "United States",
+      "away": "Paraguay",
+      "home_pos": "D1",
+      "away_pos": "D2",
+      "date": "2026-06-12",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-13T01:00:00Z",
+      "venue": "la",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "Australia",
+      "away": "Türkiye",
+      "home_pos": "D3",
+      "away_pos": "D4",
+      "date": "2026-06-13",
+      "kickoff_et": "00:00",
+      "kickoff_utc": "2026-06-13T04:00:00Z",
+      "venue": "vancouver",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "United States",
+      "away": "Australia",
+      "home_pos": "D1",
+      "away_pos": "D3",
+      "date": "2026-06-19",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-19T19:00:00Z",
+      "venue": "seattle",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "home_pos": "D4",
+      "away_pos": "D2",
+      "date": "2026-06-19",
+      "kickoff_et": "00:00",
+      "kickoff_utc": "2026-06-19T04:00:00Z",
+      "venue": "sfbay",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "Türkiye",
+      "away": "United States",
+      "home_pos": "D4",
+      "away_pos": "D1",
+      "date": "2026-06-25",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "venue": "la",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_pos": "D2",
+      "away_pos": "D3",
+      "date": "2026-06-25",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "venue": "sfbay",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "Germany",
+      "away": "Curaçao",
+      "home_pos": "E1",
+      "away_pos": "E2",
+      "date": "2026-06-14",
+      "kickoff_et": "13:00",
+      "kickoff_utc": "2026-06-14T17:00:00Z",
+      "venue": "houston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "home_pos": "E3",
+      "away_pos": "E4",
+      "date": "2026-06-14",
+      "kickoff_et": "19:00",
+      "kickoff_utc": "2026-06-14T23:00:00Z",
+      "venue": "philly",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "home_pos": "E1",
+      "away_pos": "E3",
+      "date": "2026-06-20",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-20T20:00:00Z",
+      "venue": "toronto",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "home_pos": "E4",
+      "away_pos": "E2",
+      "date": "2026-06-20",
+      "kickoff_et": "20:00",
+      "kickoff_utc": "2026-06-21T00:00:00Z",
+      "venue": "kc",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "Ecuador",
+      "away": "Germany",
+      "home_pos": "E4",
+      "away_pos": "E1",
+      "date": "2026-06-25",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "venue": "nynj",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "home_pos": "E2",
+      "away_pos": "E3",
+      "date": "2026-06-25",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "venue": "philly",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "Netherlands",
+      "away": "Japan",
+      "home_pos": "F1",
+      "away_pos": "F2",
+      "date": "2026-06-14",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-14T20:00:00Z",
+      "venue": "dallas",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "Sweden",
+      "away": "Tunisia",
+      "home_pos": "F3",
+      "away_pos": "F4",
+      "date": "2026-06-14",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-15T02:00:00Z",
+      "venue": "monterrey",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_pos": "F1",
+      "away_pos": "F3",
+      "date": "2026-06-20",
+      "kickoff_et": "13:00",
+      "kickoff_utc": "2026-06-20T17:00:00Z",
+      "venue": "houston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "Tunisia",
+      "away": "Japan",
+      "home_pos": "F4",
+      "away_pos": "F2",
+      "date": "2026-06-20",
+      "kickoff_et": "00:00",
+      "kickoff_utc": "2026-06-20T04:00:00Z",
+      "venue": "monterrey",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "Japan",
+      "away": "Sweden",
+      "home_pos": "F2",
+      "away_pos": "F3",
+      "date": "2026-06-25",
+      "kickoff_et": "19:00",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "venue": "dallas",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "home_pos": "F4",
+      "away_pos": "F1",
+      "date": "2026-06-25",
+      "kickoff_et": "19:00",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "venue": "kc",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "Iran",
+      "away": "New Zealand",
+      "home_pos": "G3",
+      "away_pos": "G4",
+      "date": "2026-06-15",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-16T01:00:00Z",
+      "venue": "la",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "Belgium",
+      "away": "Egypt",
+      "home_pos": "G1",
+      "away_pos": "G2",
+      "date": "2026-06-15",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-15T19:00:00Z",
+      "venue": "seattle",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "Belgium",
+      "away": "Iran",
+      "home_pos": "G1",
+      "away_pos": "G3",
+      "date": "2026-06-21",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-21T19:00:00Z",
+      "venue": "la",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "New Zealand",
+      "away": "Egypt",
+      "home_pos": "G4",
+      "away_pos": "G2",
+      "date": "2026-06-21",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-22T01:00:00Z",
+      "venue": "vancouver",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "Egypt",
+      "away": "Iran",
+      "home_pos": "G2",
+      "away_pos": "G3",
+      "date": "2026-06-26",
+      "kickoff_et": "23:00",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "venue": "seattle",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "New Zealand",
+      "away": "Belgium",
+      "home_pos": "G4",
+      "away_pos": "G1",
+      "date": "2026-06-26",
+      "kickoff_et": "23:00",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "venue": "vancouver",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "Spain",
+      "away": "Cape Verde",
+      "home_pos": "H1",
+      "away_pos": "H2",
+      "date": "2026-06-15",
+      "kickoff_et": "12:00",
+      "kickoff_utc": "2026-06-15T16:00:00Z",
+      "venue": "atlanta",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "home_pos": "H3",
+      "away_pos": "H4",
+      "date": "2026-06-15",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-15T22:00:00Z",
+      "venue": "miami",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_pos": "H1",
+      "away_pos": "H3",
+      "date": "2026-06-21",
+      "kickoff_et": "12:00",
+      "kickoff_utc": "2026-06-21T16:00:00Z",
+      "venue": "atlanta",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "home_pos": "H4",
+      "away_pos": "H2",
+      "date": "2026-06-21",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-21T22:00:00Z",
+      "venue": "miami",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "home_pos": "H2",
+      "away_pos": "H3",
+      "date": "2026-06-26",
+      "kickoff_et": "20:00",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "venue": "houston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "Uruguay",
+      "away": "Spain",
+      "home_pos": "H4",
+      "away_pos": "H1",
+      "date": "2026-06-26",
+      "kickoff_et": "20:00",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "venue": "guadalajara",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 1,
+      "home": "France",
+      "away": "Senegal",
+      "home_pos": "I1",
+      "away_pos": "I2",
+      "date": "2026-06-16",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-16T19:00:00Z",
+      "venue": "nynj",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 1,
+      "home": "Iraq",
+      "away": "Norway",
+      "home_pos": "I3",
+      "away_pos": "I4",
+      "date": "2026-06-16",
+      "kickoff_et": "18:00",
+      "kickoff_utc": "2026-06-16T22:00:00Z",
+      "venue": "boston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "France",
+      "away": "Iraq",
+      "home_pos": "I1",
+      "away_pos": "I3",
+      "date": "2026-06-22",
+      "kickoff_et": "17:00",
+      "kickoff_utc": "2026-06-22T21:00:00Z",
+      "venue": "philly",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "Norway",
+      "away": "Senegal",
+      "home_pos": "I4",
+      "away_pos": "I2",
+      "date": "2026-06-22",
+      "kickoff_et": "20:00",
+      "kickoff_utc": "2026-06-23T00:00:00Z",
+      "venue": "nynj",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "Norway",
+      "away": "France",
+      "home_pos": "I4",
+      "away_pos": "I1",
+      "date": "2026-06-26",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "venue": "boston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "Senegal",
+      "away": "Iraq",
+      "home_pos": "I2",
+      "away_pos": "I3",
+      "date": "2026-06-26",
+      "kickoff_et": "15:00",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "venue": "toronto",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 1,
+      "home": "Argentina",
+      "away": "Algeria",
+      "home_pos": "J1",
+      "away_pos": "J2",
+      "date": "2026-06-16",
+      "kickoff_et": "21:00",
+      "kickoff_utc": "2026-06-17T01:00:00Z",
+      "venue": "kc",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 1,
+      "home": "Austria",
+      "away": "Jordan",
+      "home_pos": "J3",
+      "away_pos": "J4",
+      "date": "2026-06-16",
+      "kickoff_et": "00:00",
+      "kickoff_utc": "2026-06-16T04:00:00Z",
+      "venue": "sfbay",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "Argentina",
+      "away": "Austria",
+      "home_pos": "J1",
+      "away_pos": "J3",
+      "date": "2026-06-22",
+      "kickoff_et": "13:00",
+      "kickoff_utc": "2026-06-22T17:00:00Z",
+      "venue": "dallas",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "Jordan",
+      "away": "Algeria",
+      "home_pos": "J4",
+      "away_pos": "J2",
+      "date": "2026-06-22",
+      "kickoff_et": "23:00",
+      "kickoff_utc": "2026-06-23T03:00:00Z",
+      "venue": "sfbay",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "Algeria",
+      "away": "Austria",
+      "home_pos": "J2",
+      "away_pos": "J3",
+      "date": "2026-06-27",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "venue": "kc",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "Jordan",
+      "away": "Argentina",
+      "home_pos": "J4",
+      "away_pos": "J1",
+      "date": "2026-06-27",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "venue": "dallas",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "Portugal",
+      "away": "DR Congo",
+      "home_pos": "K1",
+      "away_pos": "K2",
+      "date": "2026-06-17",
+      "kickoff_et": "13:00",
+      "kickoff_utc": "2026-06-17T17:00:00Z",
+      "venue": "houston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "home_pos": "K3",
+      "away_pos": "K4",
+      "date": "2026-06-17",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-18T02:00:00Z",
+      "venue": "mexico",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_pos": "K1",
+      "away_pos": "K3",
+      "date": "2026-06-23",
+      "kickoff_et": "13:00",
+      "kickoff_utc": "2026-06-23T17:00:00Z",
+      "venue": "houston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "Colombia",
+      "away": "DR Congo",
+      "home_pos": "K4",
+      "away_pos": "K2",
+      "date": "2026-06-23",
+      "kickoff_et": "22:00",
+      "kickoff_utc": "2026-06-24T02:00:00Z",
+      "venue": "guadalajara",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "Colombia",
+      "away": "Portugal",
+      "home_pos": "K4",
+      "away_pos": "K1",
+      "date": "2026-06-27",
+      "kickoff_et": "19:30",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "venue": "miami",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "home_pos": "K2",
+      "away_pos": "K3",
+      "date": "2026-06-27",
+      "kickoff_et": "19:30",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "venue": "atlanta",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "England",
+      "away": "Croatia",
+      "home_pos": "L1",
+      "away_pos": "L2",
+      "date": "2026-06-17",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-17T20:00:00Z",
+      "venue": "dallas",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "Ghana",
+      "away": "Panama",
+      "home_pos": "L3",
+      "away_pos": "L4",
+      "date": "2026-06-17",
+      "kickoff_et": "19:00",
+      "kickoff_utc": "2026-06-17T23:00:00Z",
+      "venue": "toronto",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "England",
+      "away": "Ghana",
+      "home_pos": "L1",
+      "away_pos": "L3",
+      "date": "2026-06-23",
+      "kickoff_et": "16:00",
+      "kickoff_utc": "2026-06-23T20:00:00Z",
+      "venue": "boston",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "Panama",
+      "away": "Croatia",
+      "home_pos": "L4",
+      "away_pos": "L2",
+      "date": "2026-06-23",
+      "kickoff_et": "19:00",
+      "kickoff_utc": "2026-06-23T23:00:00Z",
+      "venue": "toronto",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "Panama",
+      "away": "England",
+      "home_pos": "L4",
+      "away_pos": "L1",
+      "date": "2026-06-27",
+      "kickoff_et": "17:00",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "venue": "nynj",
+      "status": "confirmed"
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_pos": "L2",
+      "away_pos": "L3",
+      "date": "2026-06-27",
+      "kickoff_et": "17:00",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "venue": "philly",
+      "status": "confirmed"
+    }
+  ],
+  "knockout_slots": [
+    {
+      "stage": "R32",
+      "slot": "R32-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "2A",
+      "away_source": "2B",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-2",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1E",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-3",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1F",
+      "away_source": "2C",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-4",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1C",
+      "away_source": "2F",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-5",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1I",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-6",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "2E",
+      "away_source": "2I",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-7",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1A",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-8",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1L",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-9",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1D",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-10",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1G",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-11",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "2K",
+      "away_source": "2L",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-12",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1H",
+      "away_source": "2J",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-13",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1B",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-14",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1J",
+      "away_source": "2H",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-15",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "1K",
+      "away_source": "3RD",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R32",
+      "slot": "R32-16",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "2D",
+      "away_source": "2G",
+      "date_window": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-2",
+      "away_source": "W:R32-5",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-2",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-1",
+      "away_source": "W:R32-3",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-3",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-4",
+      "away_source": "W:R32-6",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-4",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-7",
+      "away_source": "W:R32-8",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-5",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-11",
+      "away_source": "W:R32-12",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-6",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-9",
+      "away_source": "W:R32-10",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-7",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-14",
+      "away_source": "W:R32-16",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "R16",
+      "slot": "R16-8",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R32-13",
+      "away_source": "W:R32-15",
+      "date_window": [
+        "2026-07-04",
+        "2026-07-07"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "QF",
+      "slot": "QF-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R16-1",
+      "away_source": "W:R16-2",
+      "date_window": [
+        "2026-07-09",
+        "2026-07-11"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "QF",
+      "slot": "QF-2",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R16-5",
+      "away_source": "W:R16-6",
+      "date_window": [
+        "2026-07-09",
+        "2026-07-11"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "QF",
+      "slot": "QF-3",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R16-3",
+      "away_source": "W:R16-4",
+      "date_window": [
+        "2026-07-09",
+        "2026-07-11"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "QF",
+      "slot": "QF-4",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:R16-7",
+      "away_source": "W:R16-8",
+      "date_window": [
+        "2026-07-09",
+        "2026-07-11"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "SF",
+      "slot": "SF-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:QF-1",
+      "away_source": "W:QF-2",
+      "date_window": [
+        "2026-07-14",
+        "2026-07-15"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "SF",
+      "slot": "SF-2",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:QF-3",
+      "away_source": "W:QF-4",
+      "date_window": [
+        "2026-07-14",
+        "2026-07-15"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "3RD",
+      "slot": "3RD-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "L:SF-1",
+      "away_source": "L:SF-2",
+      "date_window": [
+        "2026-07-18",
+        "2026-07-18"
+      ],
+      "date": null,
+      "venue": null,
+      "kickoff_utc": null,
+      "status": "teams_tbd"
+    },
+    {
+      "stage": "FINAL",
+      "slot": "FINAL-1",
+      "home": "TBD",
+      "away": "TBD",
+      "home_source": "W:SF-1",
+      "away_source": "W:SF-2",
+      "date_window": [
+        "2026-07-19",
+        "2026-07-19"
+      ],
+      "date": "2026-07-19",
+      "venue": "nynj",
+      "kickoff_utc": null,
+      "status": "teams_tbd",
+      "note": "Final at MetLife Stadium"
+    }
+  ],
+  "broadcast_us": {
+    "english": {
+      "tv": [
+        "FOX (70 matches)",
+        "FS1 (34 matches)"
+      ],
+      "streaming": [
+        "FOX Sports app"
+      ]
+    },
+    "spanish": {
+      "tv": [
+        "Telemundo (92 matches)",
+        "Universo (12 matches)"
+      ],
+      "streaming": [
+        "Peacock"
+      ]
+    }
+  }
+}
