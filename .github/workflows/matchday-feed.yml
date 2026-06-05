@@ -1,0 +1,42 @@
+name: Build Matchday RSS feed
+
+# Regenerates feed.xml once a day so the next match-day's fixtures cross the
+# "<= today" threshold and become a new RSS item. Slack's RSS app polls the
+# committed feed (served by GitHub Pages) and posts each new day once.
+
+on:
+  schedule:
+    - cron: '30 6 * * *' # 06:30 UTC daily
+  workflow_dispatch: {} # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: matchday-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate feed.xml
+        run: node scripts/build-feed.mjs
+
+      - name: Commit feed.xml if it changed
+        run: |
+          if [[ -n "$(git status --porcelain feed.xml)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add feed.xml
+            git commit -m "chore: update matchday feed ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "feed.xml unchanged — nothing to commit."
+          fi
