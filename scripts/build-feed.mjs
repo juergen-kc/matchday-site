@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DATA_PATH = join(repoRoot, 'data', 'seed-latest.json');
+const DATA_PATH = process.env.FEED_DATA || join(repoRoot, 'data', 'seed-latest.json');
 const FEED_PATH = join(repoRoot, 'feed.xml');
 
 const SITE_URL = 'https://juergen-kc.github.io/matchday-site/';
@@ -22,6 +22,18 @@ const MAX_ITEMS = 30;
 
 const WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const MO = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Friendly names for knockout stages (group games use "Group X" instead).
+const STAGE_LABELS = {
+  R32: 'Round of 32',
+  R16: 'Round of 16',
+  QF: 'Quarter-final',
+  SF: 'Semi-final',
+  '3RD': 'Third-place play-off',
+  FINAL: 'Final',
+};
+
+const isTBD = (s) => !s || String(s).trim().toUpperCase() === 'TBD';
 
 const esc = (s) =>
   String(s)
@@ -44,15 +56,51 @@ const main = async () => {
   const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
   const venues = new Map((data.venues || []).map((v) => [v.key, v]));
   const venueLabel = (key) => {
+    if (!key) return 'Venue TBD';
     const v = venues.get(key);
     return v ? `${v.stadium}, ${v.city}` : key;
   };
 
   const today = process.env.FEED_TODAY || new Date().toISOString().slice(0, 10);
 
-  // Group confirmed fixtures by date.
-  const byDate = new Map();
+  // Normalize every source into one fixture shape: { date, kickoff_utc, home,
+  // away, venue, label }. `label` is the competition context shown per match.
+  const fixtures = [];
+
   for (const m of data.group_fixtures || []) {
+    if (!m.date || !m.kickoff_utc) continue;
+    fixtures.push({
+      date: m.date,
+      kickoff_utc: m.kickoff_utc,
+      home: m.home,
+      away: m.away,
+      venue: m.venue,
+      label: `Group ${m.group}`,
+    });
+  }
+
+  // Knockout slots are dormant until the data source resolves them: today they
+  // carry home/away "TBD" and null date/kickoff, so they are skipped. The moment
+  // the source fills in real teams + a concrete date + kickoff_utc, they appear
+  // automatically — no code change needed. We key off data presence (not the
+  // `status` string) so this can't break if the status value changes.
+  let knockoutCount = 0;
+  for (const s of data.knockout_slots || []) {
+    if (!s.date || !s.kickoff_utc || isTBD(s.home) || isTBD(s.away)) continue;
+    fixtures.push({
+      date: s.date,
+      kickoff_utc: s.kickoff_utc,
+      home: s.home,
+      away: s.away,
+      venue: s.venue,
+      label: STAGE_LABELS[s.stage] || s.stage,
+    });
+    knockoutCount += 1;
+  }
+
+  // Group fixtures by date.
+  const byDate = new Map();
+  for (const m of fixtures) {
     if (!byDate.has(m.date)) byDate.set(m.date, []);
     byDate.get(m.date).push(m);
   }
@@ -72,7 +120,7 @@ const main = async () => {
 
     const lines = matches.map((m) => {
       const time = m.kickoff_utc.slice(11, 16); // HH:MM from ...THH:MM:SSZ
-      return `${time} UTC — ${m.home} vs ${m.away} · Group ${m.group} · ${venueLabel(m.venue)}`;
+      return `${time} UTC — ${m.home} vs ${m.away} · ${m.label} · ${venueLabel(m.venue)}`;
     });
 
     return `    <item>
@@ -101,7 +149,10 @@ ${items.join('\n')}
 
   await writeFile(FEED_PATH, xml, 'utf8');
   const matchCount = days.reduce((n, d) => n + byDate.get(d).length, 0);
-  console.log(`feed.xml written — today=${today}, ${days.length} day item(s), ${matchCount} match(es).`);
+  console.log(
+    `feed.xml written — today=${today}, ${days.length} day item(s), ` +
+      `${matchCount} match(es) (${knockoutCount} resolved knockout slot(s) available).`,
+  );
 };
 
 main().catch((err) => {
