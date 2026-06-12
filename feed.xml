@@ -6,7 +6,15 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Fri 12 Jun 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-06-12</link>
+      <guid isPermaLink="false">matchday-2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[19:00 UTC — Canada vs Bosnia and Herzegovina · Group B · BMO Field, Toronto<br/>
+01:00 UTC — United States vs Paraguay · Group D · SoFi Stadium, Los Angeles (Inglewood)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Thu 11 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-11</link>
