@@ -6,7 +6,17 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Sun 14 Jun 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-06-14</link>
+      <guid isPermaLink="false">matchday-2026-06-14</guid>
+      <pubDate>Sun, 14 Jun 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[17:00 UTC — Germany vs Curaçao · Group E · NRG Stadium, Houston<br/>
+20:00 UTC — Netherlands vs Japan · Group F · AT&T Stadium, Dallas (Arlington, TX)<br/>
+23:00 UTC — Ivory Coast vs Ecuador · Group E · Lincoln Financial Field, Philadelphia<br/>
+02:00 UTC — Sweden vs Tunisia · Group F · Estadio BBVA, Monterrey (Guadalupe)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Sat 13 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-13</link>
