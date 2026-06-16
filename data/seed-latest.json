@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": 19,
+    "version": 20,
     "tournament": "Men's international football championship, North America 2026",
     "note": "Unofficial reference dataset. Not affiliated with or endorsed by FIFA. All 72 group-stage fixtures are CONFIRMED with date, venue, and kickoff (source: published broadcast schedule; kickoff_et is US Eastern, kickoff_utc is the canonical instant — render in the user's local zone from kickoff_utc). Knockout slots are positional placeholders with date windows; their teams resolve after the group stage, and exact R32+ venues/times can be backfilled from the same source.",
     "dates": {
@@ -1169,7 +1169,11 @@
       "kickoff_et": "15:00",
       "kickoff_utc": "2026-06-16T19:00:00Z",
       "venue": "nynj",
-      "status": "confirmed"
+      "status": "confirmed",
+      "result": {
+        "home": 3,
+        "away": 1
+      }
     },
     {
       "stage": "group",
