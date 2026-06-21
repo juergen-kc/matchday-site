@@ -6,13 +6,24 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Sun 21 Jun 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-06-21</link>
+      <guid isPermaLink="false">matchday-2026-06-21</guid>
+      <pubDate>Sun, 21 Jun 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[04:00 UTC — Tunisia vs Japan · Group F · Estadio BBVA, Monterrey (Guadalupe)<br/>
+16:00 UTC — Spain vs Saudi Arabia · Group H · Mercedes-Benz Stadium, Atlanta<br/>
+19:00 UTC — Belgium vs Iran · Group G · SoFi Stadium, Los Angeles (Inglewood)<br/>
+22:00 UTC — Uruguay vs Cape Verde · Group H · Hard Rock Stadium, Miami (Miami Gardens, FL)<br/>
+01:00 UTC — New Zealand vs Egypt · Group G · BC Place, Vancouver]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Sat 20 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-20</link>
       <guid isPermaLink="false">matchday-2026-06-20</guid>
       <pubDate>Sat, 20 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[04:00 UTC — Tunisia vs Japan · Group F · Estadio BBVA, Monterrey (Guadalupe)<br/>
+      <description><![CDATA[04:00 UTC — Türkiye vs Paraguay · Group D · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
 17:00 UTC — Netherlands vs Sweden · Group F · NRG Stadium, Houston<br/>
 20:00 UTC — Germany vs Ivory Coast · Group E · BMO Field, Toronto<br/>
 00:00 UTC — Ecuador vs Curaçao · Group E · GEHA Field at Arrowhead Stadium, Kansas City]]></description>
@@ -22,8 +33,7 @@
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-19</link>
       <guid isPermaLink="false">matchday-2026-06-19</guid>
       <pubDate>Fri, 19 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[04:00 UTC — Türkiye vs Paraguay · Group D · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
-19:00 UTC — United States vs Australia · Group D · Lumen Field, Seattle<br/>
+      <description><![CDATA[19:00 UTC — United States vs Australia · Group D · Lumen Field, Seattle<br/>
 22:00 UTC — Scotland vs Morocco · Group C · Gillette Stadium, Boston (Foxborough, MA)<br/>
 01:00 UTC — Brazil vs Haiti · Group C · Lincoln Financial Field, Philadelphia]]></description>
     </item>
@@ -72,7 +82,8 @@
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-14</link>
       <guid isPermaLink="false">matchday-2026-06-14</guid>
       <pubDate>Sun, 14 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[17:00 UTC — Germany vs Curaçao · Group E · NRG Stadium, Houston<br/>
+      <description><![CDATA[04:00 UTC — Australia vs Türkiye · Group D · BC Place, Vancouver<br/>
+17:00 UTC — Germany vs Curaçao · Group E · NRG Stadium, Houston<br/>
 20:00 UTC — Netherlands vs Japan · Group F · AT&T Stadium, Dallas (Arlington, TX)<br/>
 23:00 UTC — Ivory Coast vs Ecuador · Group E · Lincoln Financial Field, Philadelphia<br/>
 02:00 UTC — Sweden vs Tunisia · Group F · Estadio BBVA, Monterrey (Guadalupe)]]></description>
@@ -82,8 +93,7 @@
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-13</link>
       <guid isPermaLink="false">matchday-2026-06-13</guid>
       <pubDate>Sat, 13 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[04:00 UTC — Australia vs Türkiye · Group D · BC Place, Vancouver<br/>
-19:00 UTC — Qatar vs Switzerland · Group B · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
+      <description><![CDATA[19:00 UTC — Qatar vs Switzerland · Group B · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
 22:00 UTC — Brazil vs Morocco · Group C · MetLife Stadium, New York/New Jersey (E. Rutherford)<br/>
 01:00 UTC — Haiti vs Scotland · Group C · Gillette Stadium, Boston (Foxborough, MA)]]></description>
     </item>
