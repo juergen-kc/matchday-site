@@ -6,7 +6,17 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Mon 22 Jun 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-06-22</link>
+      <guid isPermaLink="false">matchday-2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[17:00 UTC — Argentina vs Austria · Group J · AT&T Stadium, Dallas (Arlington, TX)<br/>
+21:00 UTC — France vs Iraq · Group I · Lincoln Financial Field, Philadelphia<br/>
+00:00 UTC — Norway vs Senegal · Group I · MetLife Stadium, New York/New Jersey (E. Rutherford)<br/>
+03:00 UTC — Jordan vs Algeria · Group J · Levi's Stadium, San Francisco Bay Area (Santa Clara)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Sun 21 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-21</link>
