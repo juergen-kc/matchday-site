@@ -6,7 +6,19 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Sat 27 Jun 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-06-27</link>
+      <guid isPermaLink="false">matchday-2026-06-27</guid>
+      <pubDate>Sat, 27 Jun 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[21:00 UTC — Panama vs England · Group L · MetLife Stadium, New York/New Jersey (E. Rutherford)<br/>
+21:00 UTC — Croatia vs Ghana · Group L · Lincoln Financial Field, Philadelphia<br/>
+23:30 UTC — Colombia vs Portugal · Group K · Hard Rock Stadium, Miami (Miami Gardens, FL)<br/>
+23:30 UTC — DR Congo vs Uzbekistan · Group K · Mercedes-Benz Stadium, Atlanta<br/>
+02:00 UTC — Algeria vs Austria · Group J · GEHA Field at Arrowhead Stadium, Kansas City<br/>
+02:00 UTC — Jordan vs Argentina · Group J · AT&T Stadium, Dallas (Arlington, TX)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Fri 26 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-26</link>
