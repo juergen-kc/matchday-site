@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": 76,
+    "version": 77,
     "tournament": "Men's international football championship, North America 2026",
     "note": "Unofficial reference dataset. Not affiliated with or endorsed by FIFA. All 72 group-stage fixtures are CONFIRMED with date, venue, and kickoff (source: published broadcast schedule; kickoff_et is US Eastern, kickoff_utc is the canonical instant — render in the user's local zone from kickoff_utc). Knockout slots are positional placeholders with date windows; their teams resolve after the group stage, and exact R32+ venues/times can be backfilled from the same source.",
     "dates": {
@@ -1722,258 +1722,258 @@
     {
       "stage": "R32",
       "slot": "R32-1",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "South Africa",
+      "away": "Canada",
       "home_source": "2A",
       "away_source": "2B",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-28",
+      "venue": "la",
+      "kickoff_utc": "2026-06-28T19:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-2",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Germany",
+      "away": "Paraguay",
       "home_source": "1E",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-29",
+      "venue": "boston",
+      "kickoff_utc": "2026-06-29T20:30:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-3",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Netherlands",
+      "away": "Morocco",
       "home_source": "1F",
       "away_source": "2C",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-29",
+      "venue": "monterrey",
+      "kickoff_utc": "2026-06-30T01:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-4",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Brazil",
+      "away": "Japan",
       "home_source": "1C",
       "away_source": "2F",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-29",
+      "venue": "houston",
+      "kickoff_utc": "2026-06-29T17:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-5",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "France",
+      "away": "Sweden",
       "home_source": "1I",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-30",
+      "venue": "nynj",
+      "kickoff_utc": "2026-06-30T21:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-6",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Ivory Coast",
+      "away": "Norway",
       "home_source": "2E",
       "away_source": "2I",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-30",
+      "venue": "dallas",
+      "kickoff_utc": "2026-06-30T17:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-7",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Mexico",
+      "away": "Ecuador",
       "home_source": "1A",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-06-30",
+      "venue": "mexico",
+      "kickoff_utc": "2026-07-01T01:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-8",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "England",
+      "away": "DR Congo",
       "home_source": "1L",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-01",
+      "venue": "atlanta",
+      "kickoff_utc": "2026-07-01T16:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-9",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "United States",
+      "away": "Bosnia and Herzegovina",
       "home_source": "1D",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-01",
+      "venue": "sfbay",
+      "kickoff_utc": "2026-07-02T00:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-10",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Belgium",
+      "away": "Senegal",
       "home_source": "1G",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-01",
+      "venue": "seattle",
+      "kickoff_utc": "2026-07-01T20:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-11",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Portugal",
+      "away": "Croatia",
       "home_source": "2K",
       "away_source": "2L",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-02",
+      "venue": "toronto",
+      "kickoff_utc": "2026-07-02T23:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-12",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Spain",
+      "away": "Austria",
       "home_source": "1H",
       "away_source": "2J",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-02",
+      "venue": "la",
+      "kickoff_utc": "2026-07-02T19:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-13",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Switzerland",
+      "away": "Algeria",
       "home_source": "1B",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-02",
+      "venue": "vancouver",
+      "kickoff_utc": "2026-07-03T03:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-14",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Argentina",
+      "away": "Cape Verde",
       "home_source": "1J",
       "away_source": "2H",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-03",
+      "venue": "miami",
+      "kickoff_utc": "2026-07-03T22:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-15",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Colombia",
+      "away": "Ghana",
       "home_source": "1K",
       "away_source": "3RD",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-03",
+      "venue": "kc",
+      "kickoff_utc": "2026-07-04T01:30:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R32",
       "slot": "R32-16",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Australia",
+      "away": "Egypt",
       "home_source": "2D",
       "away_source": "2G",
       "date_window": [
         "2026-06-28",
         "2026-07-03"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-03",
+      "venue": "dallas",
+      "kickoff_utc": "2026-07-03T18:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "R16",
