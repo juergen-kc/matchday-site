@@ -6,7 +6,16 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Wed 01 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-01</link>
+      <guid isPermaLink="false">matchday-2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[16:00 UTC — England vs DR Congo · Round of 32 · Mercedes-Benz Stadium, Atlanta<br/>
+20:00 UTC — Belgium vs Senegal · Round of 32 · Lumen Field, Seattle<br/>
+00:00 UTC — United States vs Bosnia and Herzegovina · Round of 32 · Levi's Stadium, San Francisco Bay Area (Santa Clara)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Tue 30 Jun 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-06-30</link>
