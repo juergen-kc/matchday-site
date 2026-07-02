@@ -6,7 +6,16 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Thu 02 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-02</link>
+      <guid isPermaLink="false">matchday-2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[19:00 UTC — Spain vs Austria · Round of 32 · SoFi Stadium, Los Angeles (Inglewood)<br/>
+23:00 UTC — Portugal vs Croatia · Round of 32 · BMO Field, Toronto<br/>
+03:00 UTC — Switzerland vs Algeria · Round of 32 · BC Place, Vancouver]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Wed 01 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-01</link>
