@@ -6,7 +6,14 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Thu 09 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-09</link>
+      <guid isPermaLink="false">matchday-2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[20:00 UTC — France vs Morocco · Quarter-final · Gillette Stadium, Boston (Foxborough, MA)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Tue 07 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-07</link>
