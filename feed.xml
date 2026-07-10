@@ -6,7 +6,14 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Fri 10 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-10</link>
+      <guid isPermaLink="false">matchday-2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[19:00 UTC — Spain vs Belgium · Quarter-final · SoFi Stadium, Los Angeles (Inglewood)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Thu 09 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-09</link>
