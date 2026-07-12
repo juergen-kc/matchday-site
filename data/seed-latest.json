@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": 106,
+    "version": 107,
     "tournament": "Men's international football championship, North America 2026",
     "note": "Unofficial reference dataset. Not affiliated with or endorsed by FIFA. All 72 group-stage fixtures are CONFIRMED with date, venue, and kickoff (source: published broadcast schedule; kickoff_et is US Eastern, kickoff_utc is the canonical instant — render in the user's local zone from kickoff_utc). Knockout slots are positional placeholders with date windows; their teams resolve after the group stage, and exact R32+ venues/times can be backfilled from the same source.",
     "dates": {
@@ -2298,34 +2298,34 @@
     {
       "stage": "SF",
       "slot": "SF-1",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "France",
+      "away": "Spain",
       "home_source": "W:QF-1",
       "away_source": "W:QF-2",
       "date_window": [
         "2026-07-14",
         "2026-07-15"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-14",
+      "venue": "dallas",
+      "kickoff_utc": "2026-07-14T19:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "SF",
       "slot": "SF-2",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "England",
+      "away": "Argentina",
       "home_source": "W:QF-3",
       "away_source": "W:QF-4",
       "date_window": [
         "2026-07-14",
         "2026-07-15"
       ],
-      "date": null,
-      "venue": null,
-      "kickoff_utc": null,
-      "status": "teams_tbd"
+      "date": "2026-07-15",
+      "venue": "atlanta",
+      "kickoff_utc": "2026-07-15T19:00:00Z",
+      "status": "confirmed"
     },
     {
       "stage": "3RD",
