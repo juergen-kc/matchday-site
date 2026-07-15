@@ -6,7 +6,14 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Wed 15 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-15</link>
+      <guid isPermaLink="false">matchday-2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[19:00 UTC — England vs Argentina · Semi-final · Mercedes-Benz Stadium, Atlanta]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Tue 14 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-14</link>
@@ -277,14 +284,6 @@
       <description><![CDATA[19:00 UTC — Qatar vs Switzerland · Group B · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
 22:00 UTC — Brazil vs Morocco · Group C · MetLife Stadium, New York/New Jersey (E. Rutherford)<br/>
 01:00 UTC — Haiti vs Scotland · Group C · Gillette Stadium, Boston (Foxborough, MA)]]></description>
-    </item>
-    <item>
-      <title>⚽ Matches — Fri 12 Jun 2026</title>
-      <link>https://juergen-kc.github.io/matchday-site/#2026-06-12</link>
-      <guid isPermaLink="false">matchday-2026-06-12</guid>
-      <pubDate>Fri, 12 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[19:00 UTC — Canada vs Bosnia and Herzegovina · Group B · BMO Field, Toronto<br/>
-01:00 UTC — United States vs Paraguay · Group D · SoFi Stadium, Los Angeles (Inglewood)]]></description>
     </item>
   </channel>
 </rss>
