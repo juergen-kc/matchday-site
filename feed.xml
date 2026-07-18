@@ -6,7 +6,14 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Sat 18 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-18</link>
+      <guid isPermaLink="false">matchday-2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[21:00 UTC — France vs England · Third-place play-off · Hard Rock Stadium, Miami (Miami Gardens, FL)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Wed 15 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-15</link>
@@ -275,15 +282,6 @@
 20:00 UTC — Netherlands vs Japan · Group F · AT&T Stadium, Dallas (Arlington, TX)<br/>
 23:00 UTC — Ivory Coast vs Ecuador · Group E · Lincoln Financial Field, Philadelphia<br/>
 02:00 UTC — Sweden vs Tunisia · Group F · Estadio BBVA, Monterrey (Guadalupe)]]></description>
-    </item>
-    <item>
-      <title>⚽ Matches — Sat 13 Jun 2026</title>
-      <link>https://juergen-kc.github.io/matchday-site/#2026-06-13</link>
-      <guid isPermaLink="false">matchday-2026-06-13</guid>
-      <pubDate>Sat, 13 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[19:00 UTC — Qatar vs Switzerland · Group B · Levi's Stadium, San Francisco Bay Area (Santa Clara)<br/>
-22:00 UTC — Brazil vs Morocco · Group C · MetLife Stadium, New York/New Jersey (E. Rutherford)<br/>
-01:00 UTC — Haiti vs Scotland · Group C · Gillette Stadium, Boston (Foxborough, MA)]]></description>
     </item>
   </channel>
 </rss>
