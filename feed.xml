@@ -6,7 +6,14 @@
     <atom:link href="https://juergen-kc.github.io/matchday-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily fixtures for the 2026 FIFA World Cup. Times in UTC.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>⚽ Matches — Sun 19 Jul 2026</title>
+      <link>https://juergen-kc.github.io/matchday-site/#2026-07-19</link>
+      <guid isPermaLink="false">matchday-2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 06:30:00 GMT</pubDate>
+      <description><![CDATA[19:00 UTC — Spain vs Argentina · Final · MetLife Stadium, New York/New Jersey (E. Rutherford)]]></description>
+    </item>
     <item>
       <title>⚽ Matches — Sat 18 Jul 2026</title>
       <link>https://juergen-kc.github.io/matchday-site/#2026-07-18</link>
@@ -271,17 +278,6 @@
 19:00 UTC — Belgium vs Egypt · Group G · Lumen Field, Seattle<br/>
 22:00 UTC — Saudi Arabia vs Uruguay · Group H · Hard Rock Stadium, Miami (Miami Gardens, FL)<br/>
 01:00 UTC — Iran vs New Zealand · Group G · SoFi Stadium, Los Angeles (Inglewood)]]></description>
-    </item>
-    <item>
-      <title>⚽ Matches — Sun 14 Jun 2026</title>
-      <link>https://juergen-kc.github.io/matchday-site/#2026-06-14</link>
-      <guid isPermaLink="false">matchday-2026-06-14</guid>
-      <pubDate>Sun, 14 Jun 2026 06:30:00 GMT</pubDate>
-      <description><![CDATA[04:00 UTC — Australia vs Türkiye · Group D · BC Place, Vancouver<br/>
-17:00 UTC — Germany vs Curaçao · Group E · NRG Stadium, Houston<br/>
-20:00 UTC — Netherlands vs Japan · Group F · AT&T Stadium, Dallas (Arlington, TX)<br/>
-23:00 UTC — Ivory Coast vs Ecuador · Group E · Lincoln Financial Field, Philadelphia<br/>
-02:00 UTC — Sweden vs Tunisia · Group F · Estadio BBVA, Monterrey (Guadalupe)]]></description>
     </item>
   </channel>
 </rss>
